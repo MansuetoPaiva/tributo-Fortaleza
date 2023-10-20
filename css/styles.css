@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color-gray-10: rgb(0, 0, 0);
+    --main-color-gray-15: rgb(115, 115, 115);
+    --main-color-gray-1: rgb(230, 230, 230);
+    --main-color-green: rgba(200, 254, 199, 1);
+    --main-color-green2: rgba(200, 254, 199, .5);
+    --main-color-purple: #5546FF;
+    --main-color-purple2: #382cbc;
+
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+header {
+
+    max-height: 70px;
+    width: 100%;
+    height: 100vh;
+    padding: 1.25rem 8rem;
+    background-color: rgb(228, 40, 40);
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+#logo a,
+nav ul li a {
+    color: white;
+}
+
+#logo a:hover,
+nav ul li a:hover {
+    color: rgb(17, 17, 192);
+}
+
+#logo a:active,
+nav ul li a:active {
+    color: rgb(17, 17, 192);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+#home {
+    width: 85vw;
+}
+
+.text-content {
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: center;
+  align-content: flex-start;
+
+    padding: 2rem;
+    color: white;
+    font-family: 'Anton';
+    color: rgb(238, 27, 27);
+}
+
+.text-content h2 {  
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 95%;
+    letter-spacing: 2px;
+}
+
+.text-content span {
+
+    color: white;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 100%;
+    background: linear-gradient(90deg, #e62323 20%, #101bac 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-content {
+    width: 70%;
+    overflow: hidden;
+}
+
+.image-content img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 3rem;
+   
+}
