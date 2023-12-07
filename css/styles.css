@@ -119,14 +119,15 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.image-content {
+.img-div {
     width: 70%;
     overflow: hidden;
 }
 
-.image-content img {
-    height: 100%;
-    width: 100%;
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
     object-fit: cover;
     overflow: hidden;
     border-radius: 3rem;
